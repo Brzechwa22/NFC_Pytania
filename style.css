@@ -1,0 +1,73 @@
+/* Resetowanie domyślnych marginesów */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* Tajemnicze, ciemne tło z delikatnym gradientem */
+    background: radial-gradient(circle at center, #1a1a24 0%, #050508 100%);
+    color: #d4af37; /* Złoty kolor przypominający pergamin/złocenia */
+    font-family: 'Playfair Display', serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: #e0d0a6;
+}
+
+/* Ta klasa tworzy długą, pustą przestrzeń, dzięki której strona ma gdzie się przewijać */
+.spacer {
+    height: 75vh; 
+}
+
+/* Styl dla dolnej sekcji */
+.revelation {
+    opacity: 1;
+    transition: opacity 3s ease-in-out; /* Bardzo powolne, płynne pojawianie się */
+    padding-bottom: 80px;
+}
+
+/* Klasa ukrywająca element - JavaScript ją usunie */
+.hidden {
+    opacity: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #d4af37;
+    margin-bottom: 20px;
+    border-top: 1px solid rgba(212, 175, 55, 0.2);
+    padding-top: 40px;
+}
+
+.reflection-text {
+    font-style: italic;
+    color: #fff; /* Jaśniejszy tekst dla wyróżnienia refleksji */
+}
+
+.reference {
+    margin-top: 50px;
+    font-size: 1.3rem;
+    color: #a38d53;
+    letter-spacing: 1px;
+}
