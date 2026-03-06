@@ -37,7 +37,7 @@ p {
 
 /* Ta klasa tworzy długą, pustą przestrzeń, dzięki której strona ma gdzie się przewijać */
 .spacer {
-    height: 75vh; 
+    height: 30vh; /* Zmniejszone z 75vh, aby droga do refleksji była krótsza */
 }
 
 /* Styl dla dolnej sekcji */
