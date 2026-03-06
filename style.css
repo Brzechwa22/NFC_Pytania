@@ -35,9 +35,8 @@ p {
     color: #e0d0a6;
 }
 
-/* Ta klasa tworzy długą, pustą przestrzeń, dzięki której strona ma gdzie się przewijać */
 .spacer {
-    height: 30vh; /* Zmniejszone z 75vh, aby droga do refleksji była krótsza */
+    height: 5vh; 
 }
 
 /* Styl dla dolnej sekcji */
